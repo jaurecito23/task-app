@@ -47,4 +47,11 @@ $(function() {
 
     })
 
+    $('task-form').submit(function(e){
+
+
+        console.log("enviando");
+        e.preventDefault();
+    })
+
 })
